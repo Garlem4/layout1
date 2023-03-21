@@ -65,6 +65,14 @@ body{
     height: 768px;
     position: relative;
 }
+.header-navigation{
+    position: absolute;
+    top: 40px;
+    left: calc(50% - 600px);
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
 .header-bg{
     width: 100vw;
     height: 100%;
